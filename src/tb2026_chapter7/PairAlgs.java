@@ -1,6 +1,6 @@
 package tb2026_chapter7;
 
-public class ArrayAlg {
+public class PairAlgs {
 	/**
 	* Gets the minimum and maximum of an array of strings.
 	* @param a an array of strings
