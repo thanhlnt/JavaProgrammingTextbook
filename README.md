@@ -1,2 +1,2 @@
-# JavaProgrammingTextbook
+# Code for Java Programming Textbook
 
