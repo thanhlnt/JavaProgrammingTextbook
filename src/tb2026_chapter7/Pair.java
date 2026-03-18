@@ -8,9 +8,9 @@ public class Pair<T> {
 		first = null; 
 		second = null; 
 	}
-	public Pair(T first, T second) { 
-		this.first = first; 
-		this.second = second; 
+	public Pair(T _first, T _second) { 
+		this.first = _first; 
+		this.second = _second; 
 	}
 	
 	public T getFirst() { 
@@ -21,11 +21,11 @@ public class Pair<T> {
 		return second; 
 	}
 	
-	public void setFirst(T newValue) { 
-		first = newValue; 
+	public void setFirst(T _first) { 
+		first = _first; 
 	}
 	
-	public void setSecond(T newValue) { 
-		second = newValue; 
+	public void setSecond(T _second) { 
+		second = _second; 
 	}
 }

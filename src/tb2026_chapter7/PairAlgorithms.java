@@ -1,6 +1,6 @@
 package tb2026_chapter7;
 
-public class PairAlg {
+public class PairAlgorithms {
 	
 	public static boolean hasNulls(Pair<?> p) {
 		return p.getFirst() == null || p.getSecond() == null;

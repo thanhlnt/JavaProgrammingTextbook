@@ -41,7 +41,7 @@ public class PairTest3 {
 		
 	public static void maxminBonus(Manager[] a, Pair<? super Manager> result) {
 		minmaxBonus(a, result);
-		PairAlg.swapHelper(result); // OK--swapHelper captures wildcard type
+		PairAlgorithms.swapHelper(result); // OK--swapHelper captures wildcard type
 	}
 
 }

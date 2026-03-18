@@ -10,7 +10,7 @@ public class PairTest2 {
 			LocalDate.of(1903, 12, 3),  // J. von Neumann
 			LocalDate.of(1910, 6, 22),  // K. Zuse
 		};
-		Pair<LocalDate> mm = ArrayAlg.minmax(birthdays);
+		Pair<LocalDate> mm = ArrayAlgorithms.minmax(birthdays);
 		System.out.println("min = " + mm.getFirst());
 		System.out.println("max = " + mm.getSecond());
 	}
